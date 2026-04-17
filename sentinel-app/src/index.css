@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  /* Dark Theme Colors */
+  --color-dark-bg: #0B101A;
+  --color-dark-surface: #151C28;
+  --color-dark-border: #232D3F;
+
+  /* Brand Accents */
+  --color-brand-cyan: #00E5FF;
+  --color-brand-cyanHover: #00B8CC;
+
+  /* Status Indicators */
+  --color-status-danger: #FF4D4D;
+  --color-status-safe: #00E676;
+  --color-status-warning: #FFB300;
+
+  /* Typography */
+  --font-sans: 'Inter', sans-serif;
+}
+
+/* Base resets specifically for this app */
+@layer base {
+  body {
+    background-color: var(--color-dark-bg);
+    color: white;
+    margin: 0;
+  }
+}
